@@ -8,161 +8,171 @@ html{
     font-family: sans-serif;
 }
 
+.no-border{
+    border: none;
+}
+
+.br-red-hover{
+    background-color:  #e50914;
+}
+.br-red-hover:hover{
+    background-color: #ff0310;
+    cursor: pointer;
+}
+
+.text-white{
+    color: #fff !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
 .border-bottom{
-    border-bottom: 8px solid #333;
+    border-bottom: 8px solid #222;
 }
 
-#header {
-    width: 100%;
-}
 
+.card-netflix {
+
+}
+.card-content {
+    position: relative;
+
+}
 .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    z-index: 1 ;
     width: 100%;
-}
-
-
-.netflix-logo-img {
-    width: 134px;
-}
-
-
-.card-nav {
-    display: flex;
-    flex-direction: row;
-    float: right;
-}
-
-
-.english {
-
-}
-
-
-.sign-in {
-
-}
-
-
-
-
-#content {
-    height: 2000px;
-}
-
-
-.card-introduce {
-
-}
-
-.car-background {
+    height: 800px;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
-
-.background-img{
-    width: 100%;
-    /* background: transparent; */
-    object-fit: cover;
-    background-repeat: no-repeat;
-}
-
-.background-gradient{
-    top: 0;
-    right: 0;
+.card-background { 
     bottom: 0;
+    top: 0;
     left: 0;
-    background: transparent;
+    right: 0    ;
     position: absolute;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0.8));
+}
+.card-background__img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.card-background__gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3),rgba(0,0,0,0.9));
 }
 
 .card-text {
     position: absolute;
-    text-align: center;
-    width: 888px;
+    max-width: 800px;
 }
 
-.text-first {
-    color: #fff;
+.card-text__first {
     font-size: 50px;
     font-weight: 600;
-    margin: 0 155px;
+    margin: 0 64px;
 }
-
-.text-second {
-    color: #fff;
+.card-text__second {
     font-size: 26px;
+    margin: 20px 0 36px;
 }
-
-.text-third {
-    color: #fff;
+.card-text__third {
     font-size: 19px;
 }
 
 .card-form {
+    margin-top: 10px;
+    width: 100%;
+}
+.form-content {
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-
-.form-sign-in {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex: 1;
-    max-width: 80%;
-}
-
-.email-input {
-    font-size: 16px;
-    height: 50px;
+.form-content__email {
+    margin-top: 10px;
     width: 60%;
-    flex: 2;
-    border: none;
-    padding-left: 10px;
-    
+    padding-left: 12px;
+    font-size: 16px;
 }
-
-.get-button{
-    width: 40%;
-    height: 50px;
-    flex: 1;
-    background-color: #e50914;
-    border: none;
+.form-content__submit {
+    margin-top: 10px;
+    width: 30%;
     border-left: 1px solid #000;
+    font-size: 30px;
 }
 
+.card-nav {
+    position: absolute;
+    justify-self: flex-start;
+    align-self: flex-start;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin-top: 12px;
+    max-width: calc(100% - 112px);
+}
 
-.get-input {
-    font-size: 1.625rem;
-    border: none;
-    background-color: #e50914;
-    color: #fff;
+.card-logo {
+}
+
+.card-logo__img {
+    width: 160px;
 
 }
 
+.card-lang-switcher {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    height: 36px;
+}
 
-.arrow-right {
-    font-size: 1.625rem;
-    color: #fff;
+.card-sign-in {
+    order: 2;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.card-sign-in__button{
+    background-color: rgba(0,0,0,0);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card-english {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.3);
+}
+.english{
 
 }
 
+.arrow-down{
+    margin: 0 10px 0 25px;
+}
 
-
-
-
-
-
-
-
-
-
+.globe{
+    margin: 0px 3px 0 9px;
+}

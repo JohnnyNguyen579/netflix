@@ -9,34 +9,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div id="header">
-        <div class="card-header">
-            <img src="./assets/css/img/Netflix_Logo_RGB.png" alt="" class="netflix-logo-img">
-            <div class="card-nav">
-                <p class="english">English</p>
-                <a href="" class="sign-in">Sign In</a>
-            </div>
-        </div>
-    </div>
-    <div id="content">
-        <div class="card-introduce border-bottom">
-            <div class="car-background">
-                <img src="./assets/css/img/background.jpg" alt="" class="background-img">
-                <div class="background-gradient"></div>
-                <div class="card-text">
-                    <p class="text-first">Unlimited movies, TV shows, and more.</p>
-                    <p class="text-second">Watch anywhere. Cancel anytime.</p>
-                    <p class="text-third">Ready to watch? Enter your email to create or restart your membership.</p>
-                    <div class="card-form">
-                        <form action="" class="form-sign-in">
-                            <input type="email" name="" required="" placeholder="Email address" id="" class="email-input">
-                            <button class="get-button"><input type="submit" value="Get Stared" class="get-input"><i class="arrow-right fa-solid fa-caret-right"></i></button>
-                        </form>
+    <div class="card-netflix">
+        <div class="card-content">
+            <div class="card-header border-bottom">
+                    <div class="card-background">
+                        <img src="./assets/css/img/background.jpg" alt="" class="card-background__img">
+                        <div class="card-background__gradient"></div>
                     </div>
+                    <div class="card-text text-center">
+                        <div class="card-text__first text-white">Unlimited movies, TV shows, and more.</div>
+                        <div class="card-text__second text-white">Watch anywhere. Cancel anytime</div>
+                        <div class="card-text__third text-white">Ready to watch? Enter your email to create or restart your membership.</div>
+                        <div class="card-form">
+                            <form action="" class="form-content">
+                                <input type="email" name="" placeholder="Email address" required="" id="" class="form-content__email no-border">
+                                <button type="submit" class="form-content__submit text-white no-border br-red-hover">Get Started</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-nav">
+                        <div class="card-logo">
+                            <img src="./assets/css/img/Netflix_Logo_RGB.png" alt="" class="card-logo__img">
+                        </div> 
+                        <div class="card-lang-switcher">
+                            <div class="card-sign-in br-red-hover">
+                                <button class="card-sign-in__button no-border text-white ">Sing In</button>
+                            </div>
+                            <div class="card-english">
+                                <div for="" class="english text-white">
+                                    <i class="globe fa-solid fa-globe"></i>English<i class="arrow-down fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
 
-                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
+    
 </body>
 </html>
