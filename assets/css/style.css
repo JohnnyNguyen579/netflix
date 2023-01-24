@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.border-bottom{
+    border-bottom: 8px solid #333;
+}
+
+#header {
+    width: 100%;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1 ;
+    width: 100%;
+}
+
+
+.netflix-logo-img {
+    width: 134px;
+}
+
+
+.card-nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+
+.english {
+
+}
+
+
+.sign-in {
+
+}
+
+
+
+
+#content {
+    height: 2000px;
+}
+
+
+.card-introduce {
+
+}
+
+.car-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background-img{
+    width: 100%;
+    /* background: transparent; */
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.background-gradient{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0.8));
+}
+
+.card-text {
+    position: absolute;
+    text-align: center;
+    width: 888px;
+}
+
+.text-first {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 155px;
+}
+
+.text-second {
+    color: #fff;
+    font-size: 26px;
+}
+
+.text-third {
+    color: #fff;
+    font-size: 19px;
+}
+
+.card-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    max-width: 80%;
+}
+
+.email-input {
+    font-size: 16px;
+    height: 50px;
+    width: 60%;
+    flex: 2;
+    border: none;
+    padding-left: 10px;
+    
+}
+
+.get-button{
+    width: 40%;
+    height: 50px;
+    flex: 1;
+    background-color: #e50914;
+    border: none;
+    border-left: 1px solid #000;
+}
+
+
+.get-input {
+    font-size: 1.625rem;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+
+}
+
+
+.arrow-right {
+    font-size: 1.625rem;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
