@@ -37,8 +37,6 @@ html{
 
 }
 .card-content {
-    position: relative;
-
 }
 .card-header {
     width: 100%;
@@ -121,7 +119,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1800px;
+    width: 1800px;
     margin-top: 12px;
     max-width: calc(100% - 112px);
 }
@@ -161,12 +159,45 @@ html{
     align-items: center;
     justify-content: center;
     margin-right: 20px;
-    border: 1px solid #aaa;
+    border: 2px solid #ccc;
     border-radius: 3px;
     background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+    position: relative;
 }
-.english{
 
+.english{
+    display: block;
+    cursor: pointer;
+}
+
+
+.checkbox:checked ~ .card-convert{
+    display: block;
+}
+
+.card-convert {
+    position: absolute;
+    top: 37px;
+    text-align: center;
+    background-color: #aaa;
+    width: 100%;
+    display: none;
+    border-radius:3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    animation: fadeIn ease-in-out .3s;
+}
+
+
+.convert-language {
+    padding: 6px 0;
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.convert-language:hover{
+    background-color: rgb(43, 29, 245);
 }
 
 .arrow-down{
@@ -175,4 +206,35 @@ html{
 
 .globe{
     margin: 0px 3px 0 9px;
+}
+
+
+.card-introduce {
+    width: 100%;
+    height: auto;
+    background-color: #e50914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-52%);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+
+    }
 }

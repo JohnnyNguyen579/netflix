@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="website icon" href="./assets/css/img/website_icon.png" type="png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -16,6 +17,7 @@
                         <img src="./assets/css/img/background.jpg" alt="" class="card-background__img">
                         <div class="card-background__gradient"></div>
                     </div>
+
                     <div class="card-text text-center">
                         <div class="card-text__first text-white">Unlimited movies, TV shows, and more.</div>
                         <div class="card-text__second text-white">Watch anywhere. Cancel anytime</div>
@@ -23,10 +25,11 @@
                         <div class="card-form">
                             <form action="" class="form-content">
                                 <input type="email" name="" placeholder="Email address" required="" id="" class="form-content__email no-border">
-                                <button type="submit" class="form-content__submit text-white no-border br-red-hover">Get Started</button>
+                                <button type="submit" class="form-content__submit text-white no-border br-red-hover">Get Started<i class="fa-solid fa-caret-right"></i></button>
                             </form>
                         </div>
                     </div>
+
                     <div class="card-nav">
                         <div class="card-logo">
                             <img src="./assets/css/img/Netflix_Logo_RGB.png" alt="" class="card-logo__img">
@@ -35,16 +38,25 @@
                             <div class="card-sign-in br-red-hover">
                                 <button class="card-sign-in__button no-border text-white ">Sing In</button>
                             </div>
-                            <div class="card-english">
-                                <div for="" class="english text-white">
+                            <label for="checkbox" class="card-english">
+                                <label for="checkbox" class="english text-white">
                                     <i class="globe fa-solid fa-globe"></i>English<i class="arrow-down fa-solid fa-caret-down"></i>
-                                </div>
-                            </div>
+                                </label>
 
-                            </div>
-                            
+                                <input type="checkbox" name="" hidden id="checkbox" class="checkbox">
+
+                                <div class="card-convert">
+                                    <p class="convert-language text-white">Tiếng Việt</p>
+                                    <p class="convert-language text-white">English</p>
+                                </div>
+                            </label>
                         </div>
                     </div>
+            </div>
+            <div class="card-introduce">
+                <div class="card-container">
+
+                </div>
             </div>
         </div>
     </div>
