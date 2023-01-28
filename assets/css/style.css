@@ -831,6 +831,7 @@ h2{
 
     .card-download{
         width: 80%;
+        margin-top: -10px;
     }
 
     .card-movie{
